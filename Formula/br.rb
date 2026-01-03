@@ -7,7 +7,8 @@ class Br < Formula
     depends_on "node"
 
     def install
-        bin.install "dist/cli.js" => "br"
+        libexec.install Dir["dist/*"]
+        bin.write_exec_script libexec/"cli.js"
     end
 
     test do
