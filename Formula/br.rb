@@ -2,7 +2,7 @@ class Br < Formula
     desc "Linguagem BR (Português / Brasileiro)"
     homepage "https://github.com/JPro561/BR"
     url "https://github.com/JPro561/BR/archive/refs/tags/v1.0.4.tar.gz"
-    sha256 "3e3d73f031e7f142dbc93fa33ea6a6948b25b4c0c3c2b4b668194396aa2b9b35"
+    sha256 "5e429262ccd461c36fe79d92b54f00b5090dec3288dd5ba0c4313458d4a72e37"
 
     depends_on "node"
 
